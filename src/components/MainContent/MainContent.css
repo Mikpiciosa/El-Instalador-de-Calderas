@@ -1,0 +1,8 @@
+.front__img {
+  width: 100%;
+  z-index: 2;
+}
+
+.front {
+  background-color: black;
+}

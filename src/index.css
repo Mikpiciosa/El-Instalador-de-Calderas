@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;700&family=Markazi+Text:wght@400;700&display=swap');
+
+
+:root {
+	--inria: font-family: 'Inria Serif', serif;
+	--marka: font-family: 'Markazi Text', serif;
+
+	--primary: #000000;
+  --secondary: #D9AA55;
+  --text: #1E1E1E;
+}
+
+* {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
