@@ -24,6 +24,11 @@ export const Header = () => {
           {IsNavActive ? <ClosedIcon /> : <HamburgerIcon />}
         </span>
         <ul className={`nav__list ${IsNavActive ? "active" : ""}`}>
+          <img
+            className="header__logo--hamg"
+            src="./logo.svg"
+            alt="Logo Instalador de Calderas"
+          />
           <li className="list__item">
             <a href="">Inicio</a>
           </li>
@@ -36,7 +41,7 @@ export const Header = () => {
           <li className="list__item">
             <a href="">Sobre Nosotros</a>
           </li>
-          <button className="header__button">Contacto</button>
+          <button className="nav__button">Contacto</button>
         </ul>
       </nav>
       <nav className="header__nav--desktop">
