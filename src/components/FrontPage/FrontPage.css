@@ -1,4 +1,44 @@
 .frontpage {
-  background-image: url("./portada.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.5)),
+    url("./portada.jpg");
+  background: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   width: 100%;
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontpage__text {
+  margin: 5rem;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--inria);
+}
+
+.front__text {
+  color: white;
+}
+
+.front__title {
+  margin-top: 2rem;
+  color: var(--secondary);
+}
+
+.front__btn {
+  margin-top: 3rem;
+  padding: 1rem;
+  width: 10rem;
+  font-family: var(--marka);
+  background-color: var(--secondary);
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
 }

@@ -1,22 +1,29 @@
 import "./FrontPage.css";
-import "FbIcon" from "./Facebook.svg";
 
 export const FrontPage = () => {
   return (
-    <main className="frontpage">
-      <section>
-        <p>
-          Buscamos brindar a nuestros clientes la climatización más confortable
-          con excelencia en instalación y equipamiento.
-        </p>
-        <h2>El Instalador de Calderas</h2>
-        <button>Conocé más</button>
+    <main>
+      <section className="frontpage">
+        <section className="frontpage__text">
+          <p className="front__text">
+            Buscamos brindar a nuestros clientes la climatización más
+            confortable con excelencia en instalación y equipamiento.
+          </p>
+          <h2 className="front__title">El Instalador de Calderas</h2>
+          <button className="front__btn">Conocé más</button>
+        </section>
+        <aside className="frontpage__rrss">
+          <a href="">
+            <img src="./WhatsApp.svg" alt="" />
+          </a>
+          <a href="">
+            <img src="./Facebook.svg" alt="" />
+          </a>
+          <a href="">
+            <img src="./Instagram.svg" alt="" />
+          </a>
+        </aside>
       </section>
-      <aside>
-        <img src={FbIcon} alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-      </aside>
     </main>
   );
 };

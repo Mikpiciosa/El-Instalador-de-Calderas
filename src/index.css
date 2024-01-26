@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;700&family=Markazi+Text:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;700&family=Markazi+Text:wght@400;700&display=swap");
 
 :root {
-	--inria: font-family: 'Inria Serif', serif;
-	--marka: font-family: 'Markazi Text', serif;
+  --inria: "Inria Serif", serif;
+  --marka: "Markazi Text", serif;
 
-	--primary: #000000;
-  --secondary: #D9AA55;
-  --text: #1E1E1E;
+  --primary: #000000;
+  --secondary: #d9aa55;
+  --text: #1e1e1e;
 }
 
 * {
-	margin: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
