@@ -33,7 +33,7 @@
 
 .front__btn {
   margin-top: 3rem;
-  padding: 1rem;
+  padding: 0.5rem;
   width: 10rem;
   font-family: var(--marka);
   background-color: var(--secondary);
@@ -41,4 +41,8 @@
   border: none;
   color: white;
   font-size: 1.5rem;
+}
+
+.frontpage__rrss {
+  margin-bottom: 2rem;
 }

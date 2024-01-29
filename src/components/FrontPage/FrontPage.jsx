@@ -14,13 +14,13 @@ export const FrontPage = () => {
         </section>
         <aside className="frontpage__rrss">
           <a href="">
-            <img src="./WhatsApp.svg" alt="" />
+            <img src="./WhatsApp.svg" alt="icono para ir a whatsapp" />
           </a>
           <a href="">
-            <img src="./Facebook.svg" alt="" />
+            <img src="./Facebook.svg" alt="icono para ir a facebook" />
           </a>
           <a href="">
-            <img src="./Instagram.svg" alt="" />
+            <img src="./Instagram.svg" alt="icono para ir a instagram" />
           </a>
         </aside>
       </section>

@@ -1,11 +1,9 @@
-import { Header } from "./components/Header/Header";
-import { FrontPage } from "./components/FrontPage/FrontPage";
+import { MainContent } from "./components/MainContent/MainContent";
 
 function App() {
   return (
     <>
-      <Header />
-      <FrontPage></FrontPage>
+      <MainContent></MainContent>
     </>
   );
 }
