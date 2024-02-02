@@ -1,5 +1,4 @@
 import "./FrontPage.css";
-import "FbIcon" from "./Facebook.svg";
 
 export const FrontPage = () => {
   return (
@@ -13,7 +12,6 @@ export const FrontPage = () => {
         <button>Conocé más</button>
       </section>
       <aside>
-        <img src={FbIcon} alt="" />
         <img src="" alt="" />
         <img src="" alt="" />
       </aside>
