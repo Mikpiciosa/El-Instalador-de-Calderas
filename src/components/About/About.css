@@ -1,0 +1,32 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.about__title {
+  color: var(--secondary);
+  font-family: var(--marka);
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+.about__text {
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 90%;
+  font-family: var(--inria);
+}
+
+.text__one {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about__img {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 23px 20px 0px 0px rgba(0, 0, 0, 0.76);
+}
