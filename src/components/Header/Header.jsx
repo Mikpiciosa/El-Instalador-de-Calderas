@@ -45,13 +45,13 @@ export const Header = () => {
         </ul>
       </nav>
       <nav className="header__nav--desktop">
-        <ul className="nav__list">
-          <li className="list__item"></li>
-          <li className="list__item"></li>
-          <li className="list__item"></li>
-          <li className="list__item"></li>
+        <ul className="nav__list--desktop">
+          <li className="list__item--desktop">Inicio</li>
+          <li className="list__item--desktop">Servicios</li>
+          <li className="list__item--desktop">Productos</li>
+          <li className="list__item--desktop">Sobre Nosotros</li>
         </ul>
-        <button className="Header__button"></button>
+        <button className="header__button--desktop">Contacto</button>
       </nav>
     </header>
   );
