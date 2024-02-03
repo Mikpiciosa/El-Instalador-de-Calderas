@@ -11,10 +11,6 @@ export const FrontPage = () => {
         <h2 className="front__title">El Instalador de Calderas</h2>
         <button className="front__btn">Conocé más</button>
       </section>
-      <aside>
-        <img src="" alt="" />
-        <img src="" alt="" />
-      </aside>
       <aside className="frontpage__rrss">
         <a href="">
           <img src="./WhatsApp.svg" alt="icono para ir a whatsapp" />
@@ -22,7 +18,7 @@ export const FrontPage = () => {
         <a href="">
           <img src="./Facebook.svg" alt="icono para ir a facebook" />
         </a>
-        <a href="">
+        <a className="rrss" href="">
           <img src="./Instagram.svg" alt="icono para ir a instagram" />
         </a>
       </aside>

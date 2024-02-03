@@ -7,6 +7,11 @@
   padding-bottom: 3rem;
 }
 
+.services__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .services__title {
   color: var(--secondary);
   margin-top: 3rem;
@@ -66,4 +71,13 @@
   border: none;
   color: white;
   font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .services {
+  }
+
+  .services__cards {
+    flex-direction: row;
+  }
 }

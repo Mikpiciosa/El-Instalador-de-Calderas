@@ -46,6 +46,7 @@ export const Header = () => {
       </nav>
       <nav className="header__nav--desktop">
         <ul className="nav__list--desktop">
+          <div></div>
           <li className="list__item--desktop">Inicio</li>
           <li className="list__item--desktop">Servicios</li>
           <li className="list__item--desktop">Productos</li>
