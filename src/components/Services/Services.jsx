@@ -8,7 +8,7 @@ export const Services = () => {
         Desde EIDC intentamos dar la mejor calidad de instalación y brindar la
         mejor experiencia con el cliente en el transcurso de su obra.
       </p>
-      <section>
+      <section className="services__cards">
         <article className="services__card crd1">
           <div className="services__text">
             <h2 className="card__title">Instaciones</h2>

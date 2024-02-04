@@ -3,7 +3,7 @@ import { FrontPage } from "../Frontpage/Frontpage";
 import { Header } from "../Header/Header";
 import { Services } from "../Services/Services";
 import { About } from "../About/About";
-import { Galery } from "../Galery/Galery";
+import { Carrousel } from "../Carrusel/Carrousel";
 import { Footer } from "../Footer/Footer";
 
 export const MainContent = () => {
@@ -14,7 +14,7 @@ export const MainContent = () => {
         <FrontPage></FrontPage>
         <Services></Services>
         <About></About>
-        <Galery></Galery>
+        <Carrousel></Carrousel>
       </main>
       <Footer></Footer>
     </section>

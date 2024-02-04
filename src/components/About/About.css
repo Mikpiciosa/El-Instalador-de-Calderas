@@ -6,6 +6,10 @@
   margin: 2rem;
 }
 
+.about__text--container {
+  text-align: center;
+}
+
 .about__title {
   color: var(--secondary);
   font-family: var(--marka);
@@ -29,4 +33,29 @@
   width: 100%;
   border-radius: 1rem;
   box-shadow: 23px 20px 0px 0px rgba(0, 0, 0, 0.76);
+}
+
+@media (min-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about__text--container {
+    text-align: center;
+  }
+
+  .about__title {
+    font-size: 5rem;
+  }
+
+  .about__text {
+    font-size: 1.5rem;
+  }
+
+  .about__img {
+    width: 50%;
+    height: 50%;
+    margin-right: 5rem;
+  }
 }

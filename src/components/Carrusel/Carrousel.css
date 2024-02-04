@@ -1,0 +1,101 @@
+.carrousel-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.79);
+  padding: 5rem 2rem;
+  row-gap: 2.5rem;
+  flex-wrap: wrap-reverse;
+}
+
+.carrousel-content-images {
+  display: flex;
+  width: 547px;
+  height: 372px;
+  max-width: 90%;
+}
+
+.swiper img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper {
+  border-radius: 20px;
+}
+
+.swiper {
+  position: static !important;
+  display: grid !important;
+  align-content: center;
+}
+.swiper [class^="swiper-button-"] {
+  inset: initial;
+  margin: 0;
+  align-self: center;
+}
+.swiper .swiper-button-prev {
+  justify-self: start;
+  margin-left: -40px;
+  color: white;
+}
+.swiper .swiper-button-next {
+  justify-self: end;
+  margin-right: -40px;
+  color: white;
+}
+.swiper .swiper-pagination {
+  inset: initial !important;
+  align-self: end;
+  justify-self: center;
+  margin-bottom: -40px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.image-carrousel {
+}
+
+.carrousel-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.carrousel-content-text-h3 {
+  font-size: 60px;
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+.carrousel-content-text-p {
+  color: white;
+  font-size: 20px;
+}
+
+.swiper img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  object-fit: cover;
+  border-radius: 20px;
+  object-position: center;
+}
+
+@media screen and (max-width: 720px) {
+  .carrousel-container {
+    padding: 5rem 0;
+  }
+
+  .swiper .swiper-button-prev {
+    display: none;
+  }
+  .swiper .swiper-button-next {
+    display: none;
+  }
+}
