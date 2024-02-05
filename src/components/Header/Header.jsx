@@ -2,6 +2,7 @@ import "./Header.css";
 import { HamburgerIcon } from "../../assets/icons/HamburgerIcon.jsx";
 import { ClosedIcon } from "../../assets/icons/ClosedIcon.jsx";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   const [IsNavActive, setIsNavActive] = useState(false);
@@ -30,27 +31,35 @@ export const Header = () => {
             alt="Logo Instalador de Calderas"
           />
           <li className="list__item">
-            <a href="">Inicio</a>
+          <Link to="/">Inicio</Link>
           </li>
           <li className="list__item">
-            <a href="">Servicios</a>
+          <Link to="/services">Servicios</Link>
           </li>
           <li className="list__item">
-            <a href="">Productos</a>
+          <Link to="/products">Productos</Link>
           </li>
           <li className="list__item">
-            <a href="">Sobre Nosotros</a>
+          <Link to="/about">Sobre nosotros</Link>
           </li>
           <button className="nav__button">Contacto</button>
         </ul>
       </nav>
       <nav className="header__nav--desktop">
         <ul className="nav__list--desktop">
-          <div></div>
-          <li className="list__item--desktop">Inicio</li>
-          <li className="list__item--desktop">Servicios</li>
-          <li className="list__item--desktop">Productos</li>
-          <li className="list__item--desktop">Sobre Nosotros</li>
+          {/* <div></div> */}
+          <li className="list__item--desktop">
+          <Link to="/">Inicio</Link>
+          </li>
+          <li className="list__item--desktop">
+          <Link to="/services">Servicios</Link>
+          </li>
+          <li className="list__item--desktop">
+          <Link to="/products">Productos</Link>
+          </li>
+          <li className="list__item--desktop">
+          <Link to="/about">Sobre nosotros</Link>
+          </li>
         </ul>
         <button className="header__button--desktop">Contacto</button>
       </nav>

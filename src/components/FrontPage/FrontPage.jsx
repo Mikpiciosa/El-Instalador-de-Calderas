@@ -1,3 +1,4 @@
+import { AsideFooter } from "../AsideFooter/AsideFooter";
 import "./FrontPage.css";
 
 export const FrontPage = () => {
@@ -11,17 +12,7 @@ export const FrontPage = () => {
         <h2 className="front__title">El Instalador de Calderas</h2>
         <button className="front__btn">Conocé más</button>
       </section>
-      <aside className="frontpage__rrss">
-        <a href="">
-          <img src="./WhatsApp.svg" alt="icono para ir a whatsapp" />
-        </a>
-        <a href="">
-          <img src="./Facebook.svg" alt="icono para ir a facebook" />
-        </a>
-        <a className="rrss" href="">
-          <img src="./Instagram.svg" alt="icono para ir a instagram" />
-        </a>
-      </aside>
+      <AsideFooter alternative={true} none={false}></AsideFooter>
     </section>
   );
 };

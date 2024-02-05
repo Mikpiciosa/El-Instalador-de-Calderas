@@ -1,38 +1,38 @@
 .frontpage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.5)),
-    url("./portada.jpg");
+    url(./portada.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
+  min-height: 80vh;
+  padding: 0 1rem;
   padding-top: 7rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .frontpage__text {
-  margin: 5rem;
   display: flex;
-  width: 80%;
+  row-gap: 1.5rem;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   font-family: var(--inria);
 }
 
 .front__text {
   color: white;
+  max-width: 42ch;
 }
 
 .front__title {
-  margin-top: 2rem;
   color: var(--secondary);
 }
 
 .front__btn {
-  margin-top: 3rem;
   padding: 0.5rem;
   width: 10rem;
   font-family: var(--marka);
@@ -44,20 +44,21 @@
 }
 
 .frontpage__rrss {
-  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 @media (min-width: 768px) {
   .frontpage__text {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    margin-left: 49px;
     align-items: start;
+    gap: 1.5rem;
   }
 
   .front__text {
     font-size: 1rem;
-    width: 30rem;
   }
 
   .front__title {
@@ -65,14 +66,26 @@
     width: 20rem;
   }
 
-  .frontpage__rrss {
-    display: flex;
+  .frontpage__rrss-alternative {
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
-    margin-left: 90rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .frontpage {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 3rem;
   }
 
-  .rrss {
+  .frontpage__text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .frontpage__rrss-alternative {
+    flex-direction: row;
   }
 }
