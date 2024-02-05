@@ -1,5 +1,5 @@
 import "./MainContent.css";
-import { FrontPage } from "../Frontpage/Frontpage";
+import { FrontPage } from "../FrontPage/FrontPage";
 import { Header } from "../Header/Header";
 import { Services } from "../Services/Services";
 import { About } from "../About/About";
