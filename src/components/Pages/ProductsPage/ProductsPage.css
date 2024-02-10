@@ -1,6 +1,6 @@
 .products-page-home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.5)),
-    url("./portada_products.png");
+    url("/portada_products.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -10,7 +10,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
 }
 
 .products-page-left {
@@ -103,10 +102,8 @@
   border: none;
 }
 
-
-.products-page-left-button{
-display: none;
-
+.products-page-left-button {
+  display: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -115,46 +112,41 @@ display: none;
   }
 }
 
-@media screen and (max-width:720px){
-
-
-  .products-page-left{
+@media screen and (max-width: 720px) {
+  .products-page-left {
     margin: 0;
-   
   }
-
 }
 
-@media screen and (max-width:550px) {
-  .frontpage__rrss-none{
+@media screen and (max-width: 550px) {
+  .frontpage__rrss-none {
     display: none;
   }
 
-  .products-page-home{
+  .products-page-home {
     justify-content: center;
     align-items: center;
     text-align: center;
   }
 
-.products-page-left{
-  align-items: center;
-}
+  .products-page-left {
+    align-items: center;
+  }
 
-.products-page-left-h1{
-  font-size: 2.5rem;
-  max-width: none;
-}
-  
-.products-page-left-button{
-  display: block;
-  width: fit-content;
-  padding: 0.4rem 2.8rem;
-  font-family: var(--marka);
-  background-color: var(--secondary);
-  border-radius: 0.5rem;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-}
+  .products-page-left-h1 {
+    font-size: 2.5rem;
+    max-width: none;
+  }
 
+  .products-page-left-button {
+    display: block;
+    width: fit-content;
+    padding: 0.4rem 2.8rem;
+    font-family: var(--marka);
+    background-color: var(--secondary);
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+  }
 }

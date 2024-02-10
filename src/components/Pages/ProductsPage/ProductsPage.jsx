@@ -1,20 +1,8 @@
 import { AsideFooter } from "../../AsideFooter/AsideFooter";
 import "./ProductsPage.css";
+import CardServiceProduct from "../../Common/CardServiceProduct";
 
-export const ProductsPage = () => {
-  const CardProductPage = ({ title, picture, anchor }) => {
-    return (
-      <article className="card-show">
-        <h4 className="card-show-h4">{title}</h4>
-        <div className="card-show-image-link-container">
-          <img className="card-show-image" src={picture} alt="" />
-          <a className="card-show-link" href={anchor}>
-            Ver más
-          </a>
-        </div>
-      </article>
-    );
-  };
+const ProductsPage = () => {
   return (
     <main className="main-products-page">
       <section className="products-page-home">
@@ -35,28 +23,30 @@ export const ProductsPage = () => {
           Conoce nuestros principales productos
         </h3>
         <div className="card-shows-container">
-          <CardProductPage
+          <CardServiceProduct
             title={"Calderas"}
-            picture={"./calentador-de-agua_1.png"}
-            anchor={"./productito"}
-          ></CardProductPage>
-          <CardProductPage
+            url={"./calentador-de-agua_1.png"}
+            anchor={"calderas"}
+          ></CardServiceProduct>
+          <CardServiceProduct
             title={"Radiadores"}
-            picture={"./calentador-de-agua_1.png"}
-            anchor={"./productito"}
-          ></CardProductPage>
-          <CardProductPage
+            url={"./calentador-de-agua_1.png"}
+            anchor={"radiadores"}
+          ></CardServiceProduct>
+          <CardServiceProduct
             title={"Radiadores Toalleros"}
-            picture={"./calentador-de-agua_1.png"}
-            anchor={"./productito"}
-          ></CardProductPage>
-          <CardProductPage
+            url={"./calentador-de-agua_1.png"}
+            anchor={"radiadoresToalleros"}
+          ></CardServiceProduct>
+          <CardServiceProduct
             title={"Pisos Radiantes"}
-            picture={"./calentador-de-agua_1.png"}
-            anchor={"./productito"}
-          ></CardProductPage>
+            url={"./calentador-de-agua_1.png"}
+            anchor={"pisosRadiantes"}
+          ></CardServiceProduct>
         </div>
       </section>
     </main>
   );
 };
+
+export default ProductsPage;

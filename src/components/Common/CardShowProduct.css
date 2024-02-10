@@ -1,0 +1,43 @@
+.productCard__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 290px;
+  background-color: beige;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden; /* Añade esto para ocultar el desbordamiento */
+}
+
+.productCard__text {
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s opacity;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
+  color: white;
+}
+
+.productCard__text:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.372);
+}
+
+.productCard__link {
+  padding: 0.5rem;
+
+  font-family: var(--marka);
+  background-color: var(--secondary);
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,30 @@
+.chooseProduct {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7rem;
+}
+
+.chooseProduct__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.856));
+  height: 40vh;
+}
+
+.chooseProduct__title {
+  color: var(--secondary);
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.chooseProduct__products {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  max-width: 95%;
+  margin: 0 auto;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}

@@ -7,8 +7,6 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   const [IsNavActive, setIsNavActive] = useState(false);
 
-  console.log(IsNavActive);
-
   const toggleNav = () => {
     setIsNavActive(!IsNavActive);
   };
@@ -17,7 +15,7 @@ export const Header = () => {
     <header className="header">
       <img
         className="header__logo"
-        src="./logo.svg"
+        src="/logo.svg"
         alt="Logo Instalador de Calderas"
       />
       <nav className="header__nav--mobile">
@@ -31,16 +29,16 @@ export const Header = () => {
             alt="Logo Instalador de Calderas"
           />
           <li className="list__item">
-          <Link to="/">Inicio</Link>
+            <Link to="/">Inicio</Link>
           </li>
           <li className="list__item">
-          <Link to="/services">Servicios</Link>
+            <Link to="/services">Servicios</Link>
           </li>
           <li className="list__item">
-          <Link to="/products">Productos</Link>
+            <Link to="/products">Productos</Link>
           </li>
           <li className="list__item">
-          <Link to="/about">Sobre nosotros</Link>
+            <Link to="/about">Sobre nosotros</Link>
           </li>
           <button className="nav__button">Contacto</button>
         </ul>
@@ -49,16 +47,16 @@ export const Header = () => {
         <ul className="nav__list--desktop">
           {/* <div></div> */}
           <li className="list__item--desktop">
-          <Link to="/">Inicio</Link>
+            <Link to="/">Inicio</Link>
           </li>
           <li className="list__item--desktop">
-          <Link to="/services">Servicios</Link>
+            <Link to="/services">Servicios</Link>
           </li>
           <li className="list__item--desktop">
-          <Link to="/products">Productos</Link>
+            <Link to="/products">Productos</Link>
           </li>
           <li className="list__item--desktop">
-          <Link to="/about">Sobre nosotros</Link>
+            <Link to="/about">Sobre nosotros</Link>
           </li>
         </ul>
         <button className="header__button--desktop">Contacto</button>
