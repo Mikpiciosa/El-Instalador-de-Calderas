@@ -2,19 +2,19 @@ export const DataProducts = {
   calderas: [
     {
       titulo: "Calderas",
-      descripcion: "Lauraaaaaaaaaaaaaaa",
+      descripcion: "Descripcion del producto",
       imagen: "/Calderas_1.png",
     },
     {
       titulo: "calderita",
-      descripcion: "Se te ve la tangaaaaaaaa",
+      descripcion: "Descripcion del producto",
       imagen: "/Calderas_1.png",
     },
   ],
   radiadores: [
     {
       titulo: "Radiadores",
-      descripcion: "Soy un radiador",
+      descripcion: "Radiador n°3",
       imagen: "/radiadores.png",
     },
   ],

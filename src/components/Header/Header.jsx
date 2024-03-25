@@ -32,13 +32,13 @@ export const Header = () => {
             <Link to="/">Inicio</Link>
           </li>
           <li className="list__item">
-            <Link to="/services">Servicios</Link>
+            <a href="./#services-id">Servicios</a>
+          </li>
+          <li className="list__item">
+            <a href="./#about-id">Sobre nosotros</a>
           </li>
           <li className="list__item">
             <Link to="/products">Productos</Link>
-          </li>
-          <li className="list__item">
-            <Link to="/about">Sobre nosotros</Link>
           </li>
           <button className="nav__button">Contacto</button>
         </ul>
@@ -50,13 +50,13 @@ export const Header = () => {
             <Link to="/">Inicio</Link>
           </li>
           <li className="list__item--desktop">
-            <Link to="/services">Servicios</Link>
+            <a href="/#services-id">Servicios</a>
+          </li>
+          <li className="list__item--desktop">
+            <a href="/#about-id">Sobre nosotros</a>
           </li>
           <li className="list__item--desktop">
             <Link to="/products">Productos</Link>
-          </li>
-          <li className="list__item--desktop">
-            <Link to="/about">Sobre nosotros</Link>
           </li>
         </ul>
         <button className="header__button--desktop">Contacto</button>
