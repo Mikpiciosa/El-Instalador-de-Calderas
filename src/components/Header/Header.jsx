@@ -13,11 +13,7 @@ export const Header = () => {
 
   return (
     <header className="header">
-      <img
-        className="header__logo"
-        src="/logo.svg"
-        alt="Logo Instalador de Calderas"
-      />
+      <p className="header__title">El Instalador de Calderas</p>
       <nav className="header__nav--mobile">
         <span onClick={toggleNav}>
           {IsNavActive ? <ClosedIcon /> : <HamburgerIcon />}

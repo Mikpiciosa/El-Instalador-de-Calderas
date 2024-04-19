@@ -1,6 +1,6 @@
 .frontpage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.5)),
-    url(/portada.jpg);
+    url(/portada.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -11,6 +11,10 @@
   min-height: 80vh;
   padding-top: 7rem;
   flex-wrap: wrap;
+}
+
+.front__logo {
+  width: 250px;
 }
 
 .frontpage__text {
@@ -25,10 +29,6 @@
 .front__text {
   color: white;
   max-width: 42ch;
-}
-
-.front__title {
-  color: var(--secondary);
 }
 
 .front__btn {

@@ -7,10 +7,11 @@ export const FrontPage = () => {
       <section className="cnt">
         <section className="frontpage__text">
           <p className="front__text">
-            Buscamos brindar a nuestros clientes la climatización más
-            confortable con excelencia en instalación y equipamiento.
+            Contamos con las líneas de productos completa en las principales
+            marcas de Calefacción de la Argentina. Comercializamos marcas como
+            PEISA - BAXI Triangular - Caldaia - Grundfos
           </p>
-          <h2 className="front__title">El Instalador de Calderas</h2>
+          <img className="front__logo" src="/logo.svg" alt="" />
           <button className="front__btn">Conocé más</button>
         </section>
         <AsideFooter alternative={true} none={false}></AsideFooter>

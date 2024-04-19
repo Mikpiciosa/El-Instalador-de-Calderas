@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   text-align: center;
 }
 
@@ -33,11 +33,6 @@
 }
 
 .services__card {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.5)),
-    url(/portada.jpg);
-  background: cover;
-
-  background-position: center;
   border-radius: 1rem;
   border: none;
   width: 19rem;
@@ -60,6 +55,7 @@
 .card__pf {
   color: white;
   font-family: var(--inria);
+  flex: 1;
 }
 
 .services__btn {
@@ -79,10 +75,37 @@
   flex-direction: column;
   row-gap: 2rem;
   align-items: center;
-  width: 1200px;
   max-width: 95%;
   margin: 0 auto;
   text-align: center;
+}
+
+.productos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.5)),
+    url(/productos.webp);
+  background: cover;
+  background-position: center;
+}
+
+.respuestos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.5)),
+    url(/repuestos.webp);
+  background: cover;
+  background-position: center;
+}
+
+.instalaciones {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.5)),
+    url(/instalaciones.webp);
+  background: cover;
+  background-position: center;
+}
+
+.deteccion {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.5)),
+    url(/instalaciones.webp);
+  background: cover;
+  background-position: center;
 }
 
 @media (min-width: 768px) {
